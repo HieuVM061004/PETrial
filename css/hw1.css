@@ -1,0 +1,57 @@
+/* Styling for header, h1, and nav */
+header, h1, nav {
+    color: white;
+    background-color: #444; /* Dark gray for good contrast */
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+}
+
+/* Hide images */
+img {
+    display: none;
+}
+
+/* Styling for section in index.html */
+#index-section {
+    background-color: #d9f2ff; /* Light blue background */
+    padding: 20px;
+    text-align: justify;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 2px solid #333; /* Optional border to match template */
+}
+
+/* Styling for section in teams.html */
+#teams-section {
+    background-color: #d4fcd6; /* Light green background */
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Table styling for teams page */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #333; /* Dark border for table */
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #444; /* Dark background for table header */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray for alternate rows */
+}
